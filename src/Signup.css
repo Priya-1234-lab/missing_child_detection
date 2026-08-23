@@ -1,0 +1,61 @@
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  font-family: 'Poppins', sans-serif;
+}
+
+.glass-form {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 45px 40px;
+  border-radius: 18px;
+  width: 380px;
+  backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.4);
+  text-align: center;
+}
+
+.glass-form h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #fff;
+}
+
+.glass-form input {
+  width: 100%;
+  margin: 12px 0;
+  padding: 14px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.18);
+  color: white;
+  font-size: 16px;
+}
+
+.glass-form input::placeholder {
+  color: #e4e4e4;
+}
+
+.glass-submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px;
+  border-radius: 30px;
+  border: none;
+  background: white;
+  color: #6a11cb;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.glass-submit-btn:hover {
+  background: #fffd;
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(255,255,255,0.8);
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  min-height: 100vh;
+  color: white;
+}
+
+.dashboard-container {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.dashboard-title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.glass-card {
+  width: 300px;
+  padding: 35px 25px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+}
+
+.glass-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.6);
+}
+
+.glass-card h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.glass-card p {
+  margin-bottom: 25px;
+  opacity: 0.8;
+}
+
+.glass-btn {
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.25);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.glass-btn:hover {
+  background: white;
+  color: #2575fc;
+}
